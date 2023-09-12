@@ -1,9 +1,6 @@
-import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 
-function Header() {
+const Header = () => {
   return (
     <>
       <Navbar expand="lg" className="bg-body-tertiary">
@@ -33,6 +30,6 @@ function Header() {
       </Navbar>
     </>
   );
-}
+};
 
 export default Header;

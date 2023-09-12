@@ -70,3 +70,32 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.app-container {
+  .action {
+    &__create {
+      color: white;
+      background-color: green;
+    }
+    &__update {
+      padding: 6px;
+      color: white;
+      font-size: 14px;
+      background-color: goldenrod;
+      border: 1px solid black;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+    &__delete {
+      padding: 6px;
+      color: white;
+      font-size: 14px;
+      background-color: crimson;
+      border: 1px solid black;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}
