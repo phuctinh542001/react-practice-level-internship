@@ -20,10 +20,10 @@ module.exports = {
       {
         files: ["*-test.js", "*.spec.js"],
         rules: {
-          "eslint:recommended": 0,
-          "plugin:react/recommended": 0,
-          "plugin:react/jsx-runtime": 0,
-          "plugin:react-hooks/recommended": 0,
+          "eslint:recommended": "off",
+          "plugin:react/recommended": "off",
+          "plugin:react/jsx-runtime": "off",
+          "plugin:react-hooks/recommended": "off",
         },
       },
     ],
