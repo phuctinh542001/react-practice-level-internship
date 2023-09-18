@@ -72,13 +72,28 @@ button:focus-visible {
 }
 
 .app-container {
+  .nav-link.nav-link {
+    &.active {
+      color: blue;
+      font-weight: 600;
+    }
+  }
+
+  .home {
+    h1 {
+      margin-top: 24px;
+      font-size: 32px;
+    }
+  }
+
   .search {
     &__input {
       flex: 1;
+      padding: 0 8px 0 0;
     }
 
     &__icon {
-      margin: 0 4px;
+      margin: 0;
       width: 54px;
       height: 36px;
       display: flex;
@@ -138,7 +153,7 @@ button:focus-visible {
         color: #000;
         background-color: chocolate;
       }
-      
+
       &:hover a {
         color: #000;
       }
@@ -174,5 +189,8 @@ button:focus-visible {
     td {
       vertical-align: middle;
     }
+  }
+  .login-container {
+    width: 600px;
   }
 }
